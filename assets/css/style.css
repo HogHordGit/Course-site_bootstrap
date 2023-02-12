@@ -355,6 +355,10 @@ footer {
   background-color: #52339a;
 }
 
+.buy__img {
+  max-height: 500px;
+}
+
 .col-pri {
   color: #05b1b1;
 }

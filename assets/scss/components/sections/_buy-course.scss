@@ -1,0 +1,8 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.buy {
+    &__img {
+        max-height: 500px;
+    }
+}
