@@ -171,14 +171,13 @@ template {
   margin: 0;
 }
 
-header,
-footer,
-section {
-  padding: 100px 0;
+section,
+footer {
+  padding: 50px 0;
 }
 
 header {
-  padding-top: 200px;
+  padding: 200px 0 100px 0;
 }
 
 header,
@@ -357,6 +356,33 @@ footer {
 
 .buy__img {
   max-height: 500px;
+}
+
+.footer__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+}
+.footer__btn-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  gap: 10px;
 }
 
 .col-pri {
