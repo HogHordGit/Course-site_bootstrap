@@ -1,0 +1,63 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.header {
+    &__title {
+        @include adaptive-font(32, 26);
+    }
+}
+
+.hog_play {
+    background-color: $color-primary;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.4s ease;
+
+    &:hover {
+        background-color: $color-additional;
+    }
+}
+
+.hog_triangle {
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-hog {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: $color-additional;
+
+    &:hover {
+        color: var(--bs-white);
+        background-color: $color-primary;
+    }
+}
+
+.embed-container {
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; overflow: hidden; 
+    max-width: 100%; 
+    
+    & iframe, & object, & embed { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%;
+    }
+}

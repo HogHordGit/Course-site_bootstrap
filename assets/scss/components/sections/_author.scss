@@ -1,0 +1,10 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.author {
+    padding-bottom: 0;
+}
+
+.hog-img {
+    max-width: 260px;
+}

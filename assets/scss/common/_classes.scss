@@ -1,0 +1,22 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.col-pri {
+    color: #05b1b1;
+}
+
+.bg-pri {
+    background-color: #05b1b1;
+}
+
+.col-add {
+    color: #52339a;
+}
+
+.bg-add {
+    background-color: #52339a;
+}
+
+.bg-grey {
+    background-color: #eee;
+}
